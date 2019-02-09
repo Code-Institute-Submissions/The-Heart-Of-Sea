@@ -1,0 +1,195 @@
+/* Variables */
+$font-weight: 800;
+
+/* Mixing */
+@mixin unicornBefore() {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(#000, transparent);
+    pointer-events: none;
+}
+
+
+@mixin unicornAfter() {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(360deg, #000, transparent);
+    pointer-events: none;
+}
+
+@mixin btnSetD1() {
+    padding: 1.2rem 2rem;
+    font-size: 1.25rem;
+    line-height: 2;
+    border-radius: 500px;
+    margin-top: 20px;
+}
+
+@mixin btnSetD2() {
+    padding: .4rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 2rem;
+    margin-bottom: 30px;
+}
+
+@mixin btnSetD3 {
+    padding: 1.5rem 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 50%;
+}
+
+@mixin btnSetSmScr() {
+    padding: .8rem 0.8rem;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    border-radius: 2rem;
+}
+
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+$font-family-1: 'Roboto',
+sans-serif;
+$font-family-2: 'Montserrat',
+sans-serif;
+$font-family-3: 'VT323',
+monospace;
+$font-family-4: 'Oswald', sans-serif;
+
+
+/* Reset */
+
+* {
+    outline: none !important;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: $font-family-2;
+    height: 100%;
+    background: #000;
+}
+
+/* Nav Bar */
+
+
+header {
+    position: relative;
+    z-index: 1000000;
+}
+
+.navbar {
+    background: transparent !important;
+    transition: 0.5s;
+}
+
+.navbar.scrolled {
+    background: #000 !important;
+    transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: darkorange;
+}
+
+.navbar-light .navbar-nav .my>.nav-link,
+.navbar-light .navbar-nav .nav-link.show {
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .8);
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.navbar-light .navbar-toggler {
+    background: #fff;
+    border-radius: 0;
+}
+
+
+/* Landing Page */
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80') no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-size: cover;
+    position: relative;
+
+    .landing-page {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-family: $font-family-4;
+
+        
+    }
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 900;
+        color: darkorange;
+
+    }
+
+    h3 {
+        color: cornsilk;
+    }
+    
+
+}
+
+#home::before {
+    @include unicornBefore();
+    height: 280px;
+
+}
+
+#home::after {
+    @include unicornAfter();
+    height: 200px;
+}
+
+/* Button Style */
+
+.btnSetD1 {
+    @include btnSetD1();
+}
