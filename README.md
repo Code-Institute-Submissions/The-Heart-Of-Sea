@@ -26,6 +26,7 @@ Normilizer CSS # To make it work on most browser
 Animation On Scroll CSS # Add Animation affect
 W3School img grid script # To make img grid
 Chrome # To Debug problems.
+Spotify # Music Host
 ```
 
 ## Contributing
