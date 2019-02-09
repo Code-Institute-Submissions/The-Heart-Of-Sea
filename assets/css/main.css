@@ -412,4 +412,48 @@ header {
   border: 5px solid rgba(238, 255, 0, 0.5);
   border-radius: 10px;
 }
+
+/* Galary Section */
+#galaryHeader {
+  color: #fff;
+  margin-top: 100px;
+}
+
+.btnSetD3 {
+  padding: 1.5rem 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 50%;
+}
+
+.img-grid .row {
+  display: -ms-flexbox;
+  /* IE 10 */
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.img-grid .column {
+  -ms-flex: 50%;
+  /* IE 10 */
+  -webkit-box-flex: 50%;
+          flex: 50%;
+  padding: 0 4px;
+}
+
+.img-grid .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  margin: 6px;
+  max-width: 100%;
+}
 /*# sourceMappingURL=main.css.map */

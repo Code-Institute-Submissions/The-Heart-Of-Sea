@@ -433,3 +433,51 @@ header {
         border-radius: 10px;
     }
 }
+
+
+
+/* Galary Section */
+
+#galaryHeader {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.btnSetD3 {
+    @include btnSetD3();
+}
+
+.img-grid {
+    .row {
+        display: -ms-flexbox;
+        /* IE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .column {
+        -ms-flex: 50%;
+        /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+
+
+        img {
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+    }
+
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+    margin: 6px;
+    max-width: 100%;
+}
+
