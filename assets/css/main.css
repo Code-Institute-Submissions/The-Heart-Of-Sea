@@ -456,4 +456,89 @@ header {
   margin: 6px;
   max-width: 100%;
 }
+
+/* Contact Section */
+.contact {
+  position: relative;
+  padding: 100px 0;
+  background: url("../img/contact.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.contact h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  height: 50px;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.contact .form-control:focus,
+.contact .form-control:hover {
+  border: none;
+  border-bottom: 2px solid white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact label {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.contact .textarea {
+  min-height: 100px;
+}
+
+.contact form {
+  position: relative;
+  z-index: 1000;
+}
+
+.contact .btnSetD4 {
+  padding: .4rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 2rem;
+  margin-bottom: 30px;
+}
+
+.contact .btnSetD4:hover {
+  background-color: brown;
+  color: white;
+}
+
+.contact:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent));
+  background: linear-gradient(#000, transparent);
+  pointer-events: none;
+  height: 400px;
+}
+
+.contact::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent));
+  background: linear-gradient(360deg, #000, transparent);
+  pointer-events: none;
+  height: 400px;
+}
 /*# sourceMappingURL=main.css.map */

@@ -481,3 +481,74 @@ header {
     max-width: 100%;
 }
 
+
+/* Contact Section */
+
+.contact {
+    position: relative;
+    padding: 100px 0;
+    background: url('../img/contact.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+
+    h2 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .form-control {
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, .2);
+        height: 50px;
+        border-radius: 0;
+        background: rgba(0, 0, 0, .6);
+        color: #fff;
+        font-size: 1.25rem;
+
+    }
+
+    .form-control:focus,
+    .form-control:hover {
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 1);
+        box-shadow: none;
+    }
+
+    label {
+        color: #fff;
+        font-size: 1.25rem;
+    }
+
+    .textarea {
+        min-height: 100px;
+
+    }
+
+    form {
+        position: relative;
+        z-index: 1000;
+
+    }
+
+    .btnSetD4 {
+        @include btnSetD2();
+    }
+
+    .btnSetD4:hover {
+        background-color: brown;
+        color: white;
+    }
+}
+
+.contact:before {
+    @include unicornBefore();
+    height: 400px;
+}
+
+.contact::after {
+    @include unicornAfter();
+    height: 400px;
+}
+
