@@ -1,10 +1,10 @@
 # The Heart Of Sea
 
-The Heart of Sea In 1960's Rock Band. This Site Wa Created For Our loyal fans.
+The Heart of Sea In 1960's Rock Band. This Site Was Created For Our Loyal fans.
 
 ## Making Progress
 
-We had hier Young Web Developer nameed Mr. Syed Shahin Ahmed To crate this for us.
+We had hier Young Web Developer nameed Mr. Syed Shahin Ahmed To crate this website for us.
 
 ```bash
 About Developer
