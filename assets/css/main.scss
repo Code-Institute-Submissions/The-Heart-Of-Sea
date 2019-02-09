@@ -276,3 +276,160 @@ header {
 
 }
 
+
+/* Music Section */
+
+
+#music {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/music.jpg') no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-size: cover;
+    position: relative;
+
+
+
+    .landing-page {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    color: brown;
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 900;
+
+    }
+
+    h3 {
+        color: cornsilk;
+        font-size: 1.8rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+
+    }
+}
+
+#music::before {
+    @include unicornBefore();
+    height: 350px;
+}
+
+#music::after {
+    @include unicornAfter();
+    height: 350px;
+}
+
+.btnSetD1 {
+    @include btnSetD1();
+}
+
+#musicFixed-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80') no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+
+    h4 {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-bottom: 20px;
+    }
+
+    .row {
+        iframe {
+            width: 100%;
+            height: 315px;
+            margin: 0 auto;
+            max-width: 100%;
+            overflow: hidden;
+            margin-top: 20px;
+            border: 10px;
+        }
+    }
+}
+
+#musicFixed-img::before {
+    @include unicornBefore();
+    height: 350px;
+}
+
+#musicFixed-img::after {
+    @include unicornAfter();
+    height: 50px;
+}
+
+
+.padding {
+
+
+    h1 {
+        margin-top: 30px;
+        color: lightgoldenrodyellow;
+        font-size: 3em;
+        font-weight: 700;
+
+    }
+
+    iframe {
+        width: 100%;
+        height: 380px;
+        margin: 0 auto;
+        max-width: 100%;
+        overflow: hidden;
+        margin: 10px;
+        border: 4px solid rgba(238, 255, 0, 0.5);
+        border-radius: 10px;
+    }
+
+}
+
+.album {
+    h1 {
+        margin-top: 30px;
+        color: lightgoldenrodyellow;
+        font-size: 3em;
+        font-weight: 700;
+    }
+
+
+    p {
+        color: lightgoldenrodyellow;
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: indianred;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: orangered;
+    }
+
+    .fa-music {
+        font-size: 1.5rem;
+    }
+
+    iframe {
+        width: 100%;
+        height: 380px;
+        margin: 0 auto;
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        border: 5px solid rgba(238, 255, 0, 0.5);
+        border-radius: 10px;
+    }
+}
