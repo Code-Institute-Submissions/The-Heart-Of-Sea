@@ -12,7 +12,7 @@ About Developer
 ```bash
 Syed Shahin Ahmed is young an enthusiastic Web Development.
 Who is kind of new to Web Development. We like giving people
-a chance and Syed being our one of the big fan we thought he
+a chance and Syed being our one of the biggest fan we thought he
 work really hard to showcase his talent. We hope everyone
 likes our new website.
 
