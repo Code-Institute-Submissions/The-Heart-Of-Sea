@@ -1,0 +1,21 @@
+/* Mixing */
+@mixin unicornBefore() {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(#000, transparent);
+    pointer-events: none;
+}
+
+
+@mixin unicornAfter() {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(360deg, #000, transparent);
+    pointer-events: none;
+}
