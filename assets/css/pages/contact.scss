@@ -1,0 +1,118 @@
+@import "../helpers/mixins";
+
+@import "../components/buttons";
+
+
+/* Contact Section */
+
+
+#contact {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contact.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+
+	h1 {
+		font-size: 5rem;
+		font-weight: 800;
+		color: crimson;
+		margin: 0;
+	}
+
+	p {
+		color: #fff;
+	}
+
+	.input-field {
+		margin-bottom: 20px;
+	}
+
+	form {
+		position: relative;
+		z-index: 1000;
+	}
+
+
+
+	/* label color */
+	.input-field label {
+		color: #fff !important;
+		margin-bottom: 30px !important;
+		padding-bottom: 40px !important;
+
+	}
+
+	/* label focus color */
+	.input-field input[type=text]:focus+label,
+	.input-field input[type=email]:focus+label,
+	.input-field textarea:focus+label,
+	.input-field input[type=number]:focus+label {
+		color: orange !important;
+		font-size: 1.4rem !important;
+		margin-bottom: 20px !important;
+		line-height: 1rem !important;
+	}
+
+	.input-field>label {
+		margin-bottom: 50px !important;
+		line-height: 1rem !important;
+		font-size: 1rem !important;
+	}
+
+
+
+	.form-control {
+		background: transparent;
+		border: none;
+		border-bottom: 2px solid rgba(255, 255, 255, .2);
+		height: 50px;
+		border-radius: 0;
+		background: rgba(0, 0, 0, .6);
+		color: #fff;
+		font-size: 1.25rem;
+
+	}
+
+
+	.form-control:focus,
+	.form-control:hover {
+		border: none !important;
+		border-bottom: 5px solid rgba(255, 255, 255, .9) !important;
+		box-shadow: none !important;
+	}
+
+	/* Text Area */
+
+	textarea {
+		color: #fff;
+		height: 100px;
+		border: none !important;
+		box-shadow: none !important;
+		border-bottom: 5px solid rgba(255, 255, 255, .9) !important;
+		background: transparent;
+		border-radius: 0;
+		background: rgba(0, 0, 0, .6);
+		font-size: 1.25rem;
+		outline: none !important;
+	}
+
+
+	textarea:focus,
+	textarea:active,
+	textarea:hover,
+	textarea:focus-within {
+		border: none !important;
+		box-shadow: none !important;
+		outline: none !important;
+		border-bottom: 5px solid rgba(255, 255, 255, .9) !important;
+	}
+
+
+
+	.formBtn {
+		@include btnSetSmScr();
+	}
+}

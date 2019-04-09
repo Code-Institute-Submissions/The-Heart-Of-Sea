@@ -1,0 +1,119 @@
+/* Mixing */
+/* Before Effect*/
+/* After Effect*/
+/*Buttons Mixin */
+/* Media Query Hero Home */
+@media (max-width: 992px) {
+  #heroHome h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Media Query About Section */
+@media (max-width: 992px) {
+  #about h1 {
+    font-size: 3rem;
+    margin-top: 80px;
+  }
+  #about h5 {
+    font-size: 1.2rem;
+    text-align: right;
+    margin: 20px;
+  }
+}
+
+/* Media Query About-Member Section */
+@media (max-width: 992px) {
+  #about-memb h1 {
+    font-size: 3rem;
+  }
+  #about-memb .card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Media Query Music Section*/
+@media (max-width: 992px) {
+  #music h1 {
+    font-size: 3rem;
+    color: lightskyblue;
+    text-transform: uppercase;
+  }
+  #music h3 {
+    font-size: 1.3rem;
+  }
+  #music .btnSetD1 {
+    padding: 0 .5rem 0 .5rem !important;
+    margin: 0;
+    line-height: 60px;
+    height: 60px;
+    letter-spacing: 0;
+  }
+  #music::before {
+    height: 180px;
+  }
+  #music::after {
+    height: 150px;
+  }
+}
+
+/* Media Query Single EPs Section */
+@media (max-width: 992px) {
+  #single .padding h1 {
+    font-size: 3rem;
+  }
+  #single .padding iframe {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    height: 350px;
+  }
+}
+
+/* Media Query Video Section */
+@media (max-width: 992px) {
+  #musicVideo h1 {
+    font-size: 3rem;
+  }
+  #musicVideo h4 {
+    font-size: 1.3rem;
+  }
+  #musicVideo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent));
+    background: linear-gradient(#000, transparent);
+    pointer-events: none;
+    height: 80px;
+  }
+}
+
+/* Media Query Album Section */
+@media (max-width: 992px) {
+  #album h1 {
+    font-size: 3rem;
+  }
+  #album h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/*Media Query Galary Section*/
+@media (max-width: 992px) {
+  #galary h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Media Query Contact US Section*/
+@media (max-width: 992px) {
+  #contact h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Footer */
+/*# sourceMappingURL=mediaQueries.css.map */

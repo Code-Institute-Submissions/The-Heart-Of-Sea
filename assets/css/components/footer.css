@@ -1,0 +1,63 @@
+/* Footer Section */
+.myFooter {
+  background-color: #000;
+  padding: 50px 0 0;
+  color: #fff;
+}
+
+.myFooter p {
+  text-align: center;
+}
+
+.myFooter .fontAweIcon {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.myFooter .fontAweIcon li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.myFooter .fontAweIcon a {
+  color: orange;
+  text-decoration: none;
+  font-size: 2rem;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  display: block;
+  overflow: hidden;
+}
+
+.myFooter .fontAweIcon a:hover {
+  color: red;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.myFooter .copyright .fa-copyright {
+  color: orange;
+}
+
+.myFooter .copyright img {
+  overflow: hidden;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  display: inline-block;
+}
+
+.myFooter .copyright img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=footer.css.map */

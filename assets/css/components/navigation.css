@@ -1,0 +1,43 @@
+/* NavBar */
+/* NavBar Link Color*/
+ul li a {
+  color: #fff;
+}
+
+/* NavBar Link Hover Color*/
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #ef5350;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/*Show On Top All Elements*/
+.navbar-fixed {
+  position: absolute;
+  z-index: 999999999;
+}
+
+/*Scroll Effect */
+.scrolled {
+  background: #000 !important;
+  height: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/*Side NavBar*/
+.sidenav {
+  height: 250px;
+  width: 200px;
+  margin-top: 60px;
+}
+
+.sidenav li a {
+  color: #fff;
+}
+
+.sidenav li a:hover {
+  background-color: #ff9800;
+}
+/*# sourceMappingURL=navigation.css.map */

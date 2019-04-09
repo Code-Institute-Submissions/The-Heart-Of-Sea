@@ -1,0 +1,17 @@
+@import "../helpers/variables";
+
+/* Reset */
+
+* {
+    outline: none !important;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    background: #000;
+}

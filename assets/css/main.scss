@@ -1,0 +1,14 @@
+@import "helpers/variables";
+@import "helpers/helpers";
+@import "helpers/mixins";
+// @import "helpers/mediaQueries";
+
+@import "components/buttons";
+@import "components/footer";
+@import "components/navigation";
+
+@import "pages/home";
+@import "pages/about";
+@import "pages/music";
+@import "pages/galary";
+@import "pages/contact";

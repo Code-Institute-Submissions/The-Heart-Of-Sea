@@ -1,0 +1,95 @@
+/* Mixing */
+/* Before Effect*/
+/* After Effect*/
+/*Buttons Mixin */
+/* About Section */
+/* About Section */
+#about {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#about h1 {
+  font-size: 5rem;
+  color: aquamarine;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about h5 {
+  font-size: 2rem;
+  color: bisque;
+  font-weight: 600;
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.btnSetD2 {
+  padding: 1rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Member Section */
+#about-memb h1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: bisque;
+  font-size: 5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#about-memb .card {
+  background-color: #000000;
+  color: #fff;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#about-memb .card .card-content .card-title {
+  font-weight: 800;
+}
+
+#about-memb img {
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+#about-memb .modal,
+#about-memb .modal-footer {
+  background-color: #abc !important;
+  color: #000 !important;
+}
+
+#about-memb .modal h4 {
+  font-weight: 800;
+}
+
+/*Modal Btn Style*/
+.modal .modal-footer .btn,
+.modal .modal-footer .btn-large,
+.modal .modal-footer .btn-small,
+.modal .modal-footer .btn-flat {
+  border: 1px solid #000;
+  background-color: beige;
+}
+
+.modal .modal-footer .btn,
+.modal .modal-footer .btn-large,
+.modal .modal-footer .btn-small,
+.modal .modal-footer .btn-flat:hover {
+  border: 1px solid #000;
+  background-color: brown;
+  color: #fff;
+}
+/*# sourceMappingURL=about.css.map */

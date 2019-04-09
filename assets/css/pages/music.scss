@@ -1,0 +1,209 @@
+@import "../helpers/mixins";
+
+
+/* Music Section */
+
+
+#music {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/music.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: table;
+
+	.landing-page {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+
+	h1 {
+		font-size: 5rem;
+		font-weight: 900;
+		color: brown;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		color: cornsilk;
+		font-size: 2rem;
+	}
+
+	a {
+		font-size: 1.5rem;
+
+	}
+
+	.btnSetD1 {
+		color: #FFFFFF !important;
+		border: 1px solid brown !important;
+		padding: 0 2rem 0 2rem !important;
+		font-size: 1.3rem;
+		text-transform: uppercase;
+		letter-spacing: .25rem;
+		background: transparent !important;
+		height: 80px;
+		line-height: 80px;
+		border-radius: 2rem;
+	}
+
+	.btnSetD1:hover {
+		color: #FFFFFF;
+		background-color: brown !important;
+
+	}
+
+}
+
+#music::before {
+	@include unicornBefore();
+	height: 300px;
+}
+
+#music::after {
+	@include unicornAfter();
+	height: 250px;
+}
+
+
+/* Single Section */
+
+#single {
+	.padding {
+		h1 {
+			margin-top: 30px;
+			color: lightgoldenrodyellow;
+			font-size: 5em;
+			font-weight: 700;
+		}
+
+		iframe {
+			width: 100%;
+			height: 300px;
+			margin: 0 auto;
+			max-width: 100%;
+			overflow: hidden;
+			margin: 10px;
+			border: 4px solid rgba(238, 255, 0, 0.5);
+			border-radius: 10px;
+		}
+	}
+}
+
+
+/* Music Video Section */
+
+/* Music Video */
+
+#musicVideo {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/musicFixed1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: table;
+
+	.landing-page {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	h1 {
+		padding: 20px;
+		margin-top: 60px;
+		color: paleturquoise;
+		font-size: 5em;
+		font-weight: 700;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+
+	h4 {
+		position: relative;
+		color: #fff;
+	}
+
+	.iframe-container {
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%;
+		height: 0;
+	}
+
+	.iframe-container iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: 5px solid #fff;
+		border-radius: 10px;
+	}
+}
+
+#musicVideo::before {
+	@include unicornBefore();
+	height: 150px;
+}
+
+
+#musicVideo::after {
+	@include unicornAfter();
+	height: 120px;
+}
+
+
+
+/* Album Section */
+#album {
+	h1 {
+		color: gold;
+		font-size: 5em;
+		font-weight: 700;
+		padding-bottom: 40px;
+
+	}
+
+	h3 {
+		color: #FFFFFF;
+		font-size: 2rem;
+	}
+
+	.fa-music {
+		color: orange;
+		transition: 0.5s ease-in-out;
+	}
+
+	.fa-music:hover {
+		color: red;
+		transform: scale(1.2);
+		transition: 0.5s ease-in-out;
+	}
+
+
+	.iframe-container {
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%;
+		height: 300px;
+		margin-bottom: 20px;
+
+	}
+
+	.iframe-container iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: 5px solid #fff;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+}

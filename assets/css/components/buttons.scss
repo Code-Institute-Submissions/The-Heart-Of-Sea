@@ -1,0 +1,33 @@
+/*Buttons Mixin */
+
+@mixin btnSetD1() {
+    line-height: 3.4rem !important;
+    padding: 0 1rem 0 3rem !important;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    background: transparent !important;
+    border-radius: 1rem;
+}
+
+@mixin btnSetD2() {
+    padding: 1rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 2rem;
+    margin-bottom: 30px;
+}
+
+
+@mixin btnSetSmScr() {
+    padding: .8rem 0.8rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    border-radius: 2rem;
+}
+
+
+@mixin btnHover {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}

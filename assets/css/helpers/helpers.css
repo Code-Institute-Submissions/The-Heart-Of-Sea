@@ -1,0 +1,21 @@
+/* Variables */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
+/* Reset */
+* {
+  outline: none !important;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Oswald', sans-serif;
+  height: 100%;
+  background: #000;
+}
+/*# sourceMappingURL=helpers.css.map */
