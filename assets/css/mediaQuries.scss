@@ -6,7 +6,13 @@
 
 @media (max-width: 992px) {
 	#heroHome h1 {
-		font-size: 3rem;
+		font-size: 3.5rem;
+		margin: 5px;
+	}
+
+	#heroHome::after {
+		@include unicornAfter();
+		height: 90px;
 	}
 }
 
@@ -46,7 +52,7 @@
 
 @media (max-width: 992px) {
 	#music h1 {
-		font-size: 3rem;
+		font-size: 3.5rem;
 		color: lightskyblue;
 		text-transform: uppercase;
 	}
