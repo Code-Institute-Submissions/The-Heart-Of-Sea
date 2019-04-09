@@ -1,104 +1,263 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Welcome To Heart Of Sea</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome To The Heart Of Sea</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- Animate on scroll -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- Normalizer CSS -->
+    <!--FontAwesome css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-    <!-- My Custom CSS -->
+    <!--Animate On Scroll Library CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS Main Style-->
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Custom CSS Media Query -->
+    <link rel="stylesheet" href="assets/css/mediaQuries.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
+    <!--NavBar-->
+    <header>
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper transparent z-depth-0">
+                <div class="container">
+                    <a href="#" class="brand-logo red-text"><img class="responsive-img" src="assets/img/brandLogo1.png"
+                            alt=""></a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons red-text">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#music">Music</a></li>
+                        <li><a href="#galary">Galary</a></li>
+                        <li><a href="#contact">Contact</a></li>
 
+                    </ul>
+                </div>
 
-    <!-- NavBar-->
+            </nav>
 
-
-    <!--Jumbotron-->
-
-
-    <!--End Of Jumbotron-->
-
-    <!--About Section-->
-
-    <!-- End Of About Section-->
-
-    <!-- Fixed Img-->
-    <div id="fixed-img"></div>
-
-    <!-- End Of Fixed Img-->
-
-    <!-- Member-->
-
-
-
-    <!--End Of About Section-->
-
-    <!--Music Section-->
-    <div id="music">
-        <div class="landing-page">
-            <h1 class="text-uppercase" data-aos-duration="1000" data-aos-delay="0">Music for everyone</h1>
-            <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Don't Worry Music Take Care Everything
-            </h3>
-            <a href="#Singles" class="btn btn-lg btn-warning btnSetD1" data-aos-duration="1000"
-                data-aos-delay="500">Listen
-                Our Music <i class="fas fa-play"></i></a>
         </div>
+
+    </header>
+
+    <ul class="sidenav indigo lighten-1" id="mobile-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#galary">Galary</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- End Of Navbar  -->
+
+
+    <!--Hero Section-->
+
+    <div id="heroHome">
+        <div class="landing-page">
+            <h3 class="center-align" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">HELLO, WORLD.</h3>
+            <h1 class="center-align" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">Welcome to
+                Heart
+                of Sea</h1>
+            <p class="center-align" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">One Music, One
+                Passion</p>
+            <br>
+            <a href="#about" class="btn btn-large btnSetD1" data-aos="fade-down" data-aos-duration="1000"
+                data-aos-delay="500">Read More <span class="heroSpan"><i class="fas fa-chevron-down"></i></span></a>
+        </div>
+
     </div>
 
-    <section id="Singles">
+    <!--End Of Hero Section-->
+
+
+    <!-- About Section -->
+
+    <section id="about" class="scrollspy section">
         <div class="padding">
             <div class="container">
-                <h1 class="text-center text-capitalize" data-aos-duration="1000" data-aos-delay="0">Singles and EPs</h1>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <iframe src="https://open.spotify.com/embed/track/2Gy7qnDwt8Z3MNxqat4CsK" frameborder="0"
-                            allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
+                    <div class="col s12">
+                        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                            A West Coast Story, Continued… </h1>
+                        <h5 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">By Syed Shahin Ahmed. </h5>
 
-                    <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                        <iframe src="https://open.spotify.com/embed/track/5xlS0QkVrSH7ssEbBgBzbM" frameborder="0"
-                            allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
+                        <br>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"> “Fifty years ago, we
+                            started something
+                            very big,” says Brian Wilson. “So now we’re celebrating
+                            together in a very big way.” “It’s pretty miraculous that we canstart out as a bunch of
+                            guys who didn’t
+                            know anything about fame or money, or anything likethat,” says Mike Love. “All we knew was
+                            we liked to
+                            sing and make harmonies together. So to haveit become part of American musical culture is
+                            pretty
+                            amazing.” </p>
 
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <iframe src="https://open.spotify.com/embed/track/0wz1LjDb9ZNEYwOmDJ3Q4b" frameborder="0"
-                            allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"> The amazing yet true saga
+                            of The Heart Of Sea is well chronicled, and by any standard it’s
+                            one of the
+                            greatest and most musical stories ever told. Now this singular West Coast story continues
+                            with a global
+                            celebration that is befitting of the remarkable and enduring legacy of
+                            these Rock & Roll Hall of Famers. To mark their 50th Anniversary,the founding members of
+                            The Heart Of
+                            Sea are reuniting for a major international tour and abrand new studio album that
+                            represents a whole
+                            new harmonic convergence from a group that hasbrought so much joy and harmony to this whole
+                            world. For
+                            millions of Beach Boys fansspanning multiple generations, this 50th Anniversary Tour and
+                            new album
+                            called That’s Why GodMade The Radio — due June 5th from Capitol/EMI — represents a dream
+                            come true and
+                            an almostreligious experience. That’s right; this legendary group is not just going to “Do
+                            It Again”
+                            onthe road. Beach Boys Brian Wilson, Mike Love, Al Jardine, Bruce Johnston, and David
+                            Marksalso
+                            recently completed their
+                            recording sessions at Los Angeles’ famed Ocean Way Studios forThat’s Why God Made The
+                            Radio, the band’s
+                            29th studio album, the first in decades to feature allof the band’s surviving
+                            original members.</p>
 
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <iframe src="https://open.spotify.com/embed/track/5t9KYe0Fhd5cW6UYT4qP8f" frameborder="0"
-                            allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">The Heart Of Sea’
+                            collaborative approach to writing and recording their new music is
+                            evidenced
+                            throughout That’s Why God Made The Radio, with all of the band members participating to
+                            create its
+                            glorious harmonies, lyrics, and arrangements. Through it all, the good times and the bad,
+                            The Heart Of
+                            Sea have always been at heart a musical family. And to mark a half-century of musical
+                            excellence, the
+                            surviving members of The Heart Of Sea family are reuniting as only family can to reflect
+                            and to
+                            celebrate.
+                        </p>
+                        <br>
+                        <a href="#about" class="btn btn-large red darken-3  btnSetD2 aboutShowBtn" data-aos="fade-up"
+                            data-aos-duration="1000" data-aos-delay="600">Read
+                            More</a>
 
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <iframe src="https://open.spotify.com/embed/track/6iGU74CwXuT4XVepjc9Emf" frameborder="0"
-                            allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
+                        <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="hidden"
+                            id="aboutHidden">
+                            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">“We’ve come full
+                                circle,” says Al Jardine. “Sharing our memories and our present in the
+                                studio
+                                has been really remarkable. I can especially feel it whenwe’re all singing around the
+                                mic
+                                together, because we all hear each other and wereally lock in.”
+                            </p>
 
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <iframe src="https://open.spotify.com/embed/track/3v9xlH6BpmRbqL7hgNJhfT" frameborder="0"
-                            allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
+                            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">“We have reunited as a
+                                band, but we never ‘un-reunited’ as friends,” says Bruce Johnston.
+                                “To be
+                                back in the studio with these guys is like a prayer that’s been answered and I am
+                                thrilled to
+                                be sharing it with everybody.” “This is more like a family reunion than anything,” says
+                                David
+                                Marks. “When we’re together, we get along great. The chemistry always works the same as
+                                the
+                                last time we were together, and the five of us become a single element.”
+                            </p>
+
+                            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Produced by Brian Wilson
+                                and Executive Produced by Mike Love, That’s Why God Made The
+                                Radio’s
+                                eleven new songs once again bring fans everywhere the band’s timeless signature sound
+                                with
+                                songs like the gorgeous and uplifting title track, a classic-sounding tribute to the
+                                emotional
+                                and even spiritual power of music. That same current also flows through the new album’s
+                                other
+                                songs: “Think About The Days,” “Isn’t It Time,” “Spring Vacation,” “Private Life Of Bill
+                                And
+                                Sue,” “Shelter,” “Daybreak Over The Ocean,” “Beaches In Mind,” “Strange World,” “My Life
+                                Suite,” and “Summer’s Gone.” From humble roots in Hawthorne, California, The Heart Of
+                                Sea have
+                                become an international
+                                sensation. Their famous harmonies and classic songs continue to travel the world
+                                bringing “Good
+                                Vibrations” everywhere. Now the 50th Anniversary Tour — The Heart Of Sea’ first major
+                                outing with
+                                Brian Wilson in more than two decades — finds the group performing music
+                                from its earliest surf rock classics to masterpieces like “Wouldn’t It Be Nice” and “God
+                                Only
+                                Knows” from perhaps the most acclaimed album of all-time, PetSounds, to later hits from
+                                the
+                                Seventies and Eighties including “Kokomo” to brand new songsrecently recorded for
+                                That’s Why God Made The Radio. At the same time, both The BeachBoys 50th Anniversary
+                                Tour and
+                                That’s Why God Made The Radio will acknowledge the enduringcontributions of the late
+                                great Carl
+                                and Dennis Wilson, two fallen musical brothers whowere such a meaningful
+                                part of this story.</p>
+
+                            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">For five decades, The
+                                Heart Of Sea — America’s first pop band to reach the 50-year
+                                milestone — has
+                                recorded and performed the music that has become theworld’s favorite soundtrack to
+                                summer.
+                                Founded in Hawthorne, California in 1961, The Heart Of Seawere originally comprised of
+                                the three
+                                teenaged Wilson brothers: Brian, Carl and Dennis,their cousin Mike Love, and school
+                                friend Al
+                                Jardine. In 1962, neighbor David Marks joinedthe group for their Bruce Johnston joined
+                                the band
+                                when Brian Wilson retired from touring to focus onwriting and producing for the group.
+                            </p>
 
 
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <iframe src="https://open.spotify.com/embed/track/1GLmaPfulP0BrfijohQpN5" frameborder="0"
-                            allowtransparency="true" allow="encrypted-media"></iframe>
+                            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">The Heart Of Sea signed
+                                with Capitol Records in July 1962 and released their first album,
+                                Surfin’
+                                Safari, that same year. The album spent 37 weeks on the Billboard chart, launching the
+                                young
+                                group known for its shimmering vocal harmonies and relaxed California style
+                                into international stardom. The Wilson/Love collaborationresulted in many huge
+                                international
+                                chart hits, and under Brian Wilson’s musical leadership, theband’s initial surf-rock
+                                focus was
+                                soon broadened to include many other themes, helping make TheHeart Of Sea America’s
+                                preeminent band of the 1960s. Impressively, The Heart Of Sea continue to hold Billboard
+                                /
+                                NielsenSoundScan’s record as the top-selling American band for albums and singles, and
+                                they
+                                arealso the American group with the most Billboard Top 40 chart hits (36). ‘Sounds Of
+                                Summer:
+                                TheVery Best Of The Heart Of Sea’ has achieved triple-Platinum sales status and ‘The
+                                SMiLESessions,’ released to worldwide critical acclaim in November, has been heralded
+                                as2011’s
+                                #1 Reissue of the Year by Rolling Stone magazine. Inducted into the Rock and Roll Hall
+                                of Fame
+                                in 1988 andrecipients of The Recording Academy’s Lifetime Achievement GRAMMY Award, The
+                                Beach
+                                Boys are abeloved American
+                                institution that remains iconic around the world.
+                            </p>
+
+                            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                Now, with The Heart Of Sea 50th Anniversary Tour and the release ofThat’s Why God Made
+                                The Radio,
+                                one of music’s greatest storiescontinues. And that’s only right because as the record
+                                shows
+                                —“Good Vibrations” really are forever.
+                            </p>
+
+                        </section>
+                        <br>
+                        <a data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" href="#about"
+                            class="btn btn-large hidden btnSetD2 red darken-3 aboutHideBtn">Go Back</a>
                     </div>
                 </div>
             </div>
@@ -106,214 +265,743 @@
 
     </section>
 
+    <!-- End Of About Section -->
 
-    <div id="musicFixed-img">
+
+    <!--Member Section -->
+
+    <section id="about-memb">
         <div class="container">
+            <h1 class="center-align" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Our Members</h1>
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <iframe width="640" height="390" src="https://www.youtube.com/embed/pih2IuL7U7A" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <!--Brian Wilson-->
+                <div class="col s12 m6 l6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="responsive-img" src="assets/img/Brian_Wilson.jpg">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="card-title">About Brian Wilson</h5>
+                            <p>Brian Douglas Wilson (born June 20, 1942) is an American musician, singer,
+                                songwriter,
+                                and record producer
+                                who
+                                co-founded the Heart Of Sea. After signing with Capitol Records in 1962, Wilson
+                                wrote
+                                or co-wrote more than
+                                two
+                                dozen Top 40 hits for the group. In addition to his unorthodox approaches to pop
+                                composition and mastery of
+                                recording techniques, Wilson is known for his lifelong struggles with mental
+                                illness.
+                                He is often referred
+                                to
+                                as a "genius" and is widely acknowledged as one of the most innovative and
+                                significant
+                                songwriters of the
+                                late 20th century.
+
+                            </p>
+                            <br>
+
+                            <!-- Modal Trigger -->
+                            <a class="waves-effect waves-light btn btn-large red darken-3 btnSetD2 modal-trigger"
+                                href="#modal1">Read
+                                More</a>
+
+                            <!-- Modal Structure -->
+                            <div id="modal1" class="modal">
+                                <div class="modal-content">
+                                    <h4>About Brian Wilson</h4>
+                                    <p>Brian Douglas Wilson (born June 20, 1942) is an American musician,
+                                        singer, songwriter, and record producer
+                                        who
+                                        co-founded the Heart Of Sea. After signing with Capitol Records in
+                                        1962, Wilson wrote or co-wrote more than
+                                        two
+                                        dozen Top 40 hits for the group. In addition to his unorthodox
+                                        approaches to pop composition and mastery of
+                                        recording techniques, Wilson is known for his lifelong struggles
+                                        with mental illness. He is often referred to
+                                        as a "genius" and is widely acknowledged as one of the most
+                                        innovative and significant songwriters of the
+                                        late 20th century.
+
+                                    </p>
+
+                                    <p> The Heart Of Sea were formed by Wilson with his brothers Carl and
+                                        Dennis, their cousin Mike Love, and
+                                        friend Al
+                                        Jardine. Brian, who grew up influenced by 1950s rock and roll and
+                                        jazz-based vocal groups, originally
+                                        functioned as the band's songwriter, producer, co-lead vocalist,
+                                        bassist, keyboardist, and de facto leader.
+                                        In
+                                        1964, he suffered a nervous breakdown and stopped touring with the
+                                        group, which led to more personal work
+                                        such
+                                        as Pet Sounds (1966) and the unfinished Smile. As his mental health
+                                        deteriorated, his contributions to the
+                                        band
+                                        diminished, and over the next decade, he was reputed for his
+                                        reclusive lifestyle and substance abuse.</p>
+
+                                    <p>Following a 1992 court-ordered removal from the care of psychologist
+                                        Eugene Landy, Wilson started receiving
+                                        conventional medical treatment, and in the late 1990s, he began
+                                        performing and recording consistently as a
+                                        solo
+                                        artist. He remains a member of the Heart Of Sea' corporation,
+                                        Brother Records Inc.</p>
+
+                                    <p>Wilson was the first pop artist credited for writing, arranging,
+                                        producing, and performing his own material.
+                                        He
+                                        is considered a major innovator in the field of music production,
+                                        the principal originator of the California
+                                        Sound, one of the first music producer auteurs, and the first rock
+                                        producer to use the studio as its own
+                                        instrument. The unusual creative control Capitol gave him over his
+                                        own records effectively set a precedent
+                                        that
+                                        allowed other bands and artists to act as their own producers or
+                                        co-producers. Wilson's success also led to a
+                                        proliferation of like-minded California producers who helped
+                                        supplant New York as the center of popular
+                                        records. The zeitgeist of the early 1960s is commonly associated to
+                                        his early songs, and he was a major
+                                        influence on the retrospectively-termed "sunshine pop" and Flower
+                                        Power music that proceeded.</p>
+
+                                    <p> In later years, Wilson became influential to the spirit of punk rock
+                                        and was regarded as "godfather" to an
+                                        era
+                                        of indie musicians who were inspired by his melodic sensibilities,
+                                        chamber pop orchestrations, and recording
+                                        explorations. His honors include being inducted into the 1988 Rock
+                                        and Roll Hall of Fame and winning Grammy
+                                        Awards for Brian Wilson Presents Smile (2004) and The Smile Sessions
+                                        (2011). In lists published by Rolling
+                                        Stone, Wilson ranked 52 for the "100 Greatest Singers of All Time"
+                                        in 2008 and 12 for the "100 Greatest
+                                        Songwriters of All Time" in 2015. In 2012, music publication NME
+                                        ranked Wilson number 8 in its "50 Greatest
+                                        Producers Ever" list, elaborating "few consider quite how
+                                        groundbreaking Brian Wilson's studio techniques
+                                        were
+                                        in the mid-60s".His life was dramatized in the 2014 biopic Love &
+                                        Mercy.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <h4>The Beach Boys, Royal Philharmonic Orchestra - Wouldn't It Be Nice (Lyric Video)</h4>
+                <!--End Of Wilson-->
+
+                <!--Mike Love-->
+                <div class="col s12 m6 l6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="responsive-img" src="assets/img/mike_love.jpg">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="card-title">About Mike Love</h5>
+                            <p>Grammy® Winner and Rock and Roll Hall of Fame Member, Michael Edward Love, grew up
+                                under
+                                the Southern
+                                California.
+                                sun where he soaked up a life of music, surf, sand and sport. Beginning his singing
+                                career as a young boy,
+                                Mike
+                                along with his cousin, Brian Wilson, frequently sang at family get-togethers and
+                                holiday gatherings. These
+                                early
+                                influences served as the inspiration to form the legendary group, The Heart Of Sea,
+                                which originally
+                                consisted
+                                of
+                                Mike and his cousins, Brian, Dennis, and Carl Wilson along with neighbor David
+                                Marks
+                                and High School friend
+                                Alan
+                                Jardine.
+
+                            </p>
+                            <br>
+
+                            <!-- Modal Trigger -->
+                            <a class="waves-effect waves-light btn btn-large red darken-3 btnSetD2 modal-trigger"
+                                href="#modal2">Read
+                                More</a>
+
+                            <!-- Modal Structure -->
+                            <div id="modal2" class="modal">
+                                <div class="modal-content">
+                                    <h4>About Mike Love</h4>
+                                    <p>Grammy® Winner and Rock and Roll Hall of Fame Member, Michael Edward
+                                        Love, grew up under the Southern
+                                        California.
+                                        sun where he soaked up a life of music, surf, sand and sport.
+                                        Beginning his singing career as a young boy,
+                                        Mike
+                                        along with his cousin, Brian Wilson, frequently sang at family
+                                        get-togethers and holiday gatherings. These
+                                        early
+                                        influences served as the inspiration to form the legendary group,
+                                        The Heart Of Sea, which originally
+                                        consisted
+                                        of
+                                        Mike and his cousins, Brian, Dennis, and Carl Wilson along with
+                                        neighbor David Marks and High School friend
+                                        Alan
+                                        Jardine. </p>
+
+                                    <p>Grammy® Winner and Rock and Roll Hall of Fame Member, Michael Edward
+                                        Love (born March 15, 1941) is an
+                                        American
+                                        singer and songwriter who co-founded the Heart Of Sea. Characterized
+                                        by his nasal and sometimes baritone
+                                        singing, Love has been one of the band's vocalists and lyricists for
+                                        their entire career, contributing to
+                                        each
+                                        of their studio albums and serving as their frontman for live
+                                        performances. He is often regarded as a malign
+                                        figure in the band's history, a reputation he acknowledges: "For
+                                        those who believe that Brian [Wilson] walks
+                                        on
+                                        water, I will always be the Antichrist."</p>
+
+                                    <p>Love was one of Wilson's collaborators during the Heart Of Sea' peak
+                                        in the 1960s. Among the band's US Top
+                                        10
+                                        hits was the Wilson–Love songs "Fun, Fun, Fun" (1964), "California
+                                        Girls" (1965), and "Good Vibrations"
+                                        (1966).
+                                        Love's lyrics primarily reflected the youth culture of surfing,
+                                        cars, and romance, which helped fashion pop
+                                        culture's perception of the "California Dream". Starting in 1968,
+                                        Love was a student of Transcendental
+                                        Meditation (TM) under Maharishi Mahesh Yogi, and became a TM teacher
+                                        in 1971. The experience influenced his
+                                        lyrics to take on themes of astrology, meditation, politics and
+                                        ecology. In the late 1970s, Love began
+                                        working
+                                        on solo albums, releasing his first in 1981: Looking Back with Love.
+                                        In 1988, Love was inducted into the Rock
+                                        and Roll Hall of Fame, along with the other founding members of the
+                                        Heart Of Sea. In the same year, the song,
+                                        "Kokomo", co-written by Love, reached number one in the United
+                                        States and was nominated for a Grammy.</p>
+
+                                    <p>
+                                        Many of Love's contributions to the group's hits were not officially
+                                        recognized until the 1990s, when he
+                                        successfully sued for writing credits on 35 songs. He remains
+                                        uncredited for another 44 Heart Of Sea songs he
+                                        alleged to have co-written. In 1998, following the death of cousin
+                                        Carl Wilson, Love was given an exclusive
+                                        license to tour under the name the Heart Of Sea. His surviving
+                                        bandmates, Brian Wilson and Al Jardine,
+                                        embarked
+                                        on solo endeavors. In 2011, the group reunited to produce a new
+                                        album and embark on a tour for their 50th
+                                        anniversary. Following the 50th anniversary reunion shows, Love
+                                        resumed touring only with Bruce Johnston.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Of Mike Love-->
+
+
+            </div>
+
+            <div class="row">
+                <!--Alan Charles-->
+                <div class="col s12 m6 l6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="responsive-img" src="assets/img/Al_Jardine.jpg">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="card-title">About Alan Charles</h5>
+                            <p>Alan Charles Jardine was born in Lima, Ohio, but his family moved to San Francisco
+                                and
+                                later to Hawthorne,
+                                California. At Hawthorne High School, he befriended fellow football player Brian
+                                Wilson and
+                                watched Brian
+                                and brother Carl Wilson singing at a school assembly. After attending Ferris State
+                                University during the
+                                1960-61 academic year, Jardine registered as a student at El Camino College in
+                                1961.
+                            </p>
+
+
+                            <br>
+
+                            <!-- Modal Trigger -->
+                            <a class="waves-effect waves-light btn btn-large red darken-3 btnSetD2 modal-trigger"
+                                href="#modal3">Read
+                                More</a>
+
+                            <!-- Modal Structure -->
+                            <div id="modal3" class="modal">
+                                <div class="modal-content">
+                                    <h4>About Alan Charles</h4>
+                                    p>Alan Charles Jardine was born in Lima, Ohio, but his family moved to
+                                    San Francisco and later to
+                                    Hawthorne,
+                                    California. At Hawthorne High School, he befriended fellow football
+                                    player Brian Wilson and watched
+                                    Brian
+                                    and brother Carl Wilson singing at a school assembly. After
+                                    attending Ferris State University
+                                    during the
+                                    1960-61 academic year, Jardine registered as a student at El Camino
+                                    College in 1961.
+                                    </p>
+
+                                    There, he was reunited
+                                    with Brian and first presented the idea of forming a band as the two
+                                    worked through harmony ideas
+                                    together
+                                    in
+                                    the college's music room. Jardine's primary musical interest was folk
+                                    and he learned banjo and guitar
+                                    specifically to play folk music. When the Heart Of Sea formed at
+                                    Wilson's home, he first tried to push
+                                    the
+                                    band
+                                    toward folk but was overruled in favor of rock 'n' roll. </p>
+                                    <p>
+                                        An all-rounder on string instruments, Jardine played stand-up bass
+                                        on the Heart Of Sea' first
+                                        recording,
+                                        the
+                                        song
+                                        "Surfin'" (1961). Following his brief departure from the band in
+                                        early 1962, he dabbled with a
+                                        career in
+                                        the
+                                        aerospace industry in Los Angeles. Jardine fully rejoined the Heart
+                                        Of Sea in the summer of 1963 at
+                                        Brian
+                                        Wilson's request and worked alongside guitarist David Marks with the
+                                        band until October 1963, when
+                                        Marks
+                                        quit
+                                        the Heart Of Sea after an altercation with the band's manager, Murry
+                                        Wilson.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Alan Charles-->
+
+
+                <!--Bruce Johnston-->
+                <div class="col s12 m6 l6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="responsive-img" src="assets/img/Bruce_Johnston.jpg">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="card-title">About Bruce Johnston</h5>
+                            <p>Bruce Arthur Johnston (born Benjamin Baldwin on June 27, 1942) is an American
+                                singer, songwriter,
+                                and
+                                record
+                                producer best known as a member of the Heart Of Sea. In 1965, Johnston joined the
+                                band for live
+                                performances,
+                                filling in for the group's co-founder Brian Wilson, who had quit touring in order
+                                to spend more time
+                                in the
+                                studio. Johnston then became a contributing member on subsequent albums.
+
+                            </p>
+                            <br>
+
+                            <!-- Modal Trigger -->
+                            <a class="waves-effect waves-light btn btn-large red darken-3 btnSetD2 modal-trigger"
+                                href="#modal4">Read
+                                More</a>
+
+                            <!-- Modal Structure -->
+                            <div id="modal4" class="modal">
+                                <div class="modal-content">
+                                    <h4>About Bruce Johnston</h4>
+                                    <p>Bruce Arthur Johnston (born Benjamin Baldwin on June 27, 1942) is an
+                                        American singer, songwriter,
+                                        and
+                                        record
+                                        producer best known as a member of the Heart Of Sea. In 1965,
+                                        Johnston joined the band for live
+                                        performances,
+                                        filling in for the group's co-founder Brian Wilson, who had quit
+                                        touring in order to spend more
+                                        time in the
+                                        studio. Johnston then became a contributing member on subsequent
+                                        albums.
+
+                                    </p>
+                                    <p>
+                                        His songs for the Heart Of Sea include "Tears in the Morning"
+                                        (1970), "Deirdre" (1970), and "Disney
+                                        Girls
+                                        (1957)"
+                                        (1971). He served as a producer for the Heart Of Sea albums L.A.
+                                        (Light Album) (1979) and Keepin'
+                                        the
+                                        Summer
+                                        Alive (1980). Johnston is also known for his early 1960s
+                                        collaborations with Terry Melcher as Bruce
+                                        & Terry
+                                        and
+                                        with the surf band the Rip Chords, as well as composing the 1975
+                                        Barry Manilow song "I Write the
+                                        Songs".He
+                                        continues to tour as a member of the Heart Of Sea alongside band
+                                        co-founder Mike Love.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Of Bruce Johnston-->
+            </div>
+        </div>
+
+    </section>
+
+    <!-- End Of Member Section -->
+
+
+    <!-- Music Section -->
+
+    <section id="music" class="section container scrollspy">
+        <div class="landing-page">
+            <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">Music for everyone</h1>
+            <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Don't Worry! Music
+                Take Care Everything
+            </h3>
+            <a href="#single" class="btn btn-large btnSetD1" data-aos="fade-down" data-aos-duration="1000"
+                data-aos-delay="600">Listen Our
+                Music <i class="material-icons right">library_music</i></a>
+        </div>
+    </section>
+
+
+    <!-- Single's Section -->
+    <section id="single" class="container section scrollspy">
+        <div class="padding">
+            <h1 class="center-align" data-aos-duration="1000" data-aos-delay="0">Singles and EPs</h1>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700"
+                        src="https://open.spotify.com/embed/track/2Gy7qnDwt8Z3MNxqat4CsK" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="col s12 m6 l4">
+                    <iframe data-aos="fade-up" src="https://open.spotify.com/embed/track/5xlS0QkVrSH7ssEbBgBzbM"
+                        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="col s12 m6 l4">
+                    <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250"
+                        src="https://open.spotify.com/embed/track/0wz1LjDb9ZNEYwOmDJ3Q4b" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
 
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350"
+                        src="https://open.spotify.com/embed/track/5t9KYe0Fhd5cW6UYT4qP8f" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+
+                <div class="col s12 m6 l4">
+                    <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="450"
+                        src="https://open.spotify.com/embed/track/6iGU74CwXuT4XVepjc9Emf" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+
+
+                <div class="col s12 m6 l4">
+                    <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="550"
+                        src="https://open.spotify.com/embed/track/3v9xlH6BpmRbqL7hgNJhfT" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+
+                <div class="col s12 m6 l4">
+                    <iframe data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600"
+                        src="https://open.spotify.com/embed/track/1GLmaPfulP0BrfijohQpN5" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
 
             </div>
 
         </div>
+        </div>
+    </section>
+    <!-- End Of Single's Section -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <h4>The Beach Boys, Royal Philharmonic Orchestra - Fun, Fun, Fun (Lyric Video)</h4>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <iframe width="640" height="390" src="https://www.youtube.com/embed/xUGM1SkEfE4" frameborder="0"
+    <!-- Music Video Section -->
+    <section id="musicVideo" class="container section scrollspy">
+        <h1 class="center-align" data-aos="fade-down" data-aos-duration="800" data-aos-delay="0">Our Music Video</h1>
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h4 class="center-align" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">The Beach
+                    Boys, Royal
+                    Philharmonic Orchestra - Wouldn't It Be Nice (Lyric Video)</h4>
+            </div>
+
+            <div class="col s12 m6 l6">
+                <div class="iframe-container">
+                    <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" width="640" height="390"
+                        src="https://www.youtube.com/embed/pih2IuL7U7A" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-
             </div>
+
         </div>
 
-    </div>
-
-    <section class="album">
-        <div class="container">
-            <h1 class="text-center text-capitalize">Our Popular Album</h1>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <iframe src="https://open.spotify.com/embed/album/5kU8vfvTw9uagny4iDOG5v" frameborder="0"
-                        allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <iframe src="https://open.spotify.com/embed/album/15Cy3saQTJbpFjKjaKW3HF" frameborder="0"
-                        allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <iframe src="https://open.spotify.com/embed/album/2se9vEQ4zC8kP4xtR9zg5G" frameborder="0"
-                        allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <iframe src="https://open.spotify.com/embed/album/42oBdomfxF0DbKKMEqrnQW" frameborder="0"
-                        allowtransparency="true" allow="encrypted-media"></iframe>
+        <div class="row">
+            <div class="col s12 m6 l6 push-l6">
+                <h4 class="center-align  grey-text text-lighten-3" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="350">The Beach Boys, Royal
+                    Philharmonic Orchestra - Fun, Fun, Fun (Lyric Video)</h4>
+            </div>
+            <div class="col s12 m6 l6 pull-l6">
+                <div class="iframe-container">
+                    <iframe data-aos="fade-up" data-aos-duration="1000" width="640" height="390"
+                        src="https://www.youtube.com/embed/xUGM1SkEfE4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
-            <p>For More Album Please Click Here <a
+
+        </div>
+
+    </section>
+
+    <!-- End Of Music Video Section -->
+
+
+
+
+    <!-- Album Section -->
+
+    <section id="album" class="section scrollspy">
+        <div class="container">
+            <h1 class="center-align">Our Popular Album</h1>
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <div class="iframe-container">
+                        <iframe data-aos="fade-down" src="https://open.spotify.com/embed/album/5kU8vfvTw9uagny4iDOG5v"
+                            frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="iframe-container">
+                        <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250"
+                            src="https://open.spotify.com/embed/album/15Cy3saQTJbpFjKjaKW3HF" frameborder="0"
+                            allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="iframe-container">
+                        <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350"
+                            src="https://open.spotify.com/embed/album/2se9vEQ4zC8kP4xtR9zg5G" frameborder="0"
+                            allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="iframe-container">
+                        <iframe data-aos="fade-up" data-aos-duration="1000" data-aos-delay="550"
+                            src="https://open.spotify.com/embed/album/42oBdomfxF0DbKKMEqrnQW" frameborder="0"
+                            allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+            <h3 class="center-align">For More Album
+                Please Click Here <a
                     href="https://open.spotify.com/artist/3oDbviiivRWhXwIE8hxkVV?si=L0Y5s6UrSDmhBatyfGkfRg"
-                    target="_blank"><i class="fas fa-music"></i></a></p>
+                    target="_blank"><i class="fas fa-music"></i></a></h3>
         </div>
 
     </section>
 
+    <!-- End Of Album Section -->
 
 
-    <!--End Of Music Section-->
+    <!-- End Of Music -->
+
 
 
     <!-- Galary Section -->
 
-    <section id="galary">
+    <section id="galary" class="section scrollspy">
 
         <!-- Galary Section Header -->
-
-        <div class="padding">
-            <div class="header" id="galaryHeader">
-                <h1 class="text-center text-uppercase" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
-                    Our
-                    Image Galary</h1>
-                <p class="lead text-center text-capitalize">Click on the buttons to change the grid view and enjoy
-                    different view.</p>
-                <button class="btn btn-outline-success btn-lg btnSetD3" onclick="one()">1</button>
-                <button class="btn btn-outline-danger active btn-lg btnSetD3" onclick="two()">2</button>
-                <button class="btn btn-outline-warning btn-lg btnSetD3" onclick="four()">3</button>
+        <div class="container">
+            <div class="galaryHeader center-align">
+                <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">Our Image Galary</h1>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">Please Click On The Buttons To
+                    Change The Grid View And Enjoy
+                    Different View.
+                </p>
+                <button class="btn-floating btn-large pulse orange darken-4 btnOne" onclick="one()" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="350">One</button>
+                <button class="btn-floating btn-large pulse  blue darken-2 btnTwo" onclick="two()" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="450">Two</button>
+                <button class="btn-floating btn-large pulse green darken-2 btnThree" onclick="four()" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="550">Three</button>
             </div>
         </div>
 
 
-        <!-- Photo Grid -->
-        <div class="img-grid">
-            <div class="container">
-                <div class="row">
-                    <div class="column">
-                        <img class="responsive" src="assets/img/music-1.jpg">
-                        <img class="responsive" src="assets/img/concert-1.jpeg">
-                        <img class="responsive" src="assets/img/cute.jpeg">
-                        <img class="responsive" src="assets/img/music.jpg">
-                        <img class="responsive" src="assets/img/member-1.jpg">
-                        <img class="responsive" src="assets/img/music-2.jpeg">
-                        <img class="responsive" src="assets/img/concert-2.jpg">
-                    </div>
-                    <div class="column">
-                        <img class="responsive" src="assets/img/concert-2.jpg">
-                        <img class="responsive" src="assets/img/music-2.jpeg">
-                        <img class="responsive" src="assets/img/member-2.jpg">
-                        <img class="responsive" src="assets/img/cute-2.jpg">
-                        <img class="responsive" src="assets/img/concert-4.jpeg">
-                        <img class="responsive" src="assets/img/member-3.jpg">
+        <!--Img grid -->
 
-                    </div>
-                    <div class="column">
-                        <img class="responsive" src="assets/img/memeber-4.jpg">
-                        <img class="responsive" src="assets/img/concert-5.jpg">
-                        <img class="responsive" src="assets/img/music-3.jpeg">
-                        <img class="responsive" src="assets/img/concert-4.jpeg">
-                        <img class="responsive" src="assets/img/cute-3.jpg">
-                        <img class="responsive" src="assets/img/music-6.jpg">
-                        <img class="responsive" src="assets/img/music-4.jpeg">
-
-                    </div>
-                    <div class="column">
-                        <img class="responsive" src="assets/img/music-7.jpg">
-                        <img class="responsive" src="assets/img/concert-6.jpg">
-                        <img class="responsive" src="assets/img/music-4.jpeg">
-                        <img class="responsive" src="assets/img/member-2.jpg">
-                        <img class="responsive" src="assets/img/music-1.jpg">
-                        <img class="responsive" src="assets/img/cute-2.jpg">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-    </section>
-
-    <!-- End Of Galary Section-->
-
-    <!--Contact Section-->
-
-    <section class="contact sec4" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <div class="headerText text-center">
-                        <h2 class="text-uppercase text-center" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="0">CONTACT THE </h2>
-                        <h2 class="text-uppercase text-center" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="0">HEART OF THE SEA</h2>
-                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Please note that because of
-                            the high volume of emails we receive we cannot answer every message in a timely manner. We
-                            do read every email and attempt to respond to as many as possible. </p>
-
-                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Thank you for your support!
-                        </p>
-                    </div>
+                <div class="col s12">
+                    <img class="responsive-img" src="assets/img/music-1.jpg">
+                    <img class="responsive-img" src="assets/img/concert-1.jpeg">
+                    <img class="responsive-img" src="assets/img/cute.jpeg">
+                    <img class="responsive-img" src="assets/img/music.jpg">
+                    <img class="responsive-img" src="assets/img/member-1.jpg">
+                    <img class="responsive-img" src="assets/img/music-2.jpeg">
+                    <img class="responsive-img" src="assets/img/concert-2.jpg">
 
                 </div>
-            </div>
+                <div class="col s12">
+                    <img class="responsive-img" src="assets/img/concert-4.jpg">
+                    <img class="responsive-img" src="assets/img/music-2.jpeg">
+                    <img class="responsive-img" src="assets/img/member-2.jpg">
+                    <img class="responsive-img" src="assets/img/cute-2.jpg">
+                    <img class="responsive-img" src="assets/img/concert-4.jpeg">
+                    <img class="responsive-img" src="assets/img/member-3.jpg">
+                </div>
+                <div class="col s12">
+                    <img class="responsive-img" src="assets/img/concert-5.jpg">
+                    <img class="responsive-img" src="assets/img/memeber-4.jpg">
+                    <img class="responsive-img" src="assets/img/music-3.jpeg">
+                    <img class="responsive-img" src="assets/img/concert-4.jpeg">
+                    <img class="responsive-img" src="assets/img/cute-3.jpg">
+                    <img class="responsive-img" src="assets/img/music-6.jpg">
+                    <img class="responsive-img" src="assets/img/music-4.jpeg">
+                </div>
+                <div class="col s12">
+                    <img class="responsive-img" src="assets/img/music-7.jpg">
+                    <img class="responsive-img" src="assets/img/concert-6.jpg">
+                    <img class="responsive-img" src="assets/img/music-4.jpeg">
+                    <img class="responsive-img" src="assets/img/cute-2.jpg">
+                    <img class="responsive-img" src="assets/img/member-2.jpg">
+                    <img class="responsive-img" src="assets/img/concert-5.jpg">
 
-            <div class="row" clearfix>
-                <div class="offset-sm-2 col-sm-8">
-                    <form action="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                        <div class="form-group">
-                            <label for="Name">Name</label>
-                            <input type="text" placeholder="Full Name" name="name" class="form-control" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="Email">Email</label>
-                            <input type="text" placeholder="Email" name="email" class="form-control" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="Phone">Phone</label>
-                            <input type="text" placeholder="Phone Number" name="Phone" class="form-control">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="Message">Message</label>
-                            <textarea name="" class="form-control textarea" id=""></textarea>
-                        </div>
-
-                        <div class="form-group text-center"><button class="btn btnSetD4">Send</button>
-
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
+
+
     </section>
 
 
-    <!-- End Of Contact Section-->
+    <!-- End Of Galary Section-->
+    <!-- Contact Section -->
+
+    <section id="contact" class="section container scrollspy">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="center-align" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">CONTACT THE
+                </h1>
+                <h1 class="center-align" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">HEART OF THE SEA
+                </h1>
+                <p class="center-align" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Please note
+                    that because of
+                    the high volume of emails we receive we cannot answer every message in a timely manner. We
+                    do read every email and attempt to respond to as many as possible. </p>
+
+                <p class="center-align" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Thank you for
+                    your support!
+                </p>
+            </div>
+        </div>
+
+        <!-- Contact Form  Section-->
+
+        <!-- contact form -->
+        <div class="container contact-form">
+            <div class="row">
+                <form class="col s12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="ID1" type="text" class="validate form-control" required>
+                            <label for="ID1">Name</label>
+
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="ID2" type="email" class="validate form-control" required>
+                            <label for="ID2">Email</label>
+                            <span class="helper-text" data-error="Please Put a Valid Email Address"
+                                data-success="right"></span>
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="ID3" type="number" class="validate form-control" required>
+                            <label for="ID3">Your Phone Number</label>
+
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea name="message" id="ID4" cols="30" rows="10" required></textarea>
+                            <label for="ID4">Your Message</label>
+
+                        </div>
+                        <div class="input-field col s12 center-align">
+
+                            <button class="btn orange waves-effect waves-light formBtn" data-aos="fade-up"
+                                data-aos-duration="1000" data-aos-delay="500">Submit</button>
+                        </div>
 
 
-    <!-- Footer Section-->
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- End Of Contact Form  Section-->
+
+    </section>
+    <!-- End Of Contact Section -->
 
 
+    <!-- Footer Section -->
     <footer class="myFooter">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <ul class="awe--icon">
+                <div class="col s12">
+                    <ul class="fontAweIcon">
                         <li><a href="https://twitter.com/TheBeachBoys" target="_blank"><i class="fab fa-twitter"
                                     aria-hidden="true"></i></a></li>
+
+
                         <li><a href="https://www.facebook.com/thebeachboys" target="_blank"><i class="fab fa-facebook-f"
                                     title="Edit"></i> </a></li>
                         <li><a href="https://www.youtube.com/user/TheBeachBoysVEVO" target="_blank"><i
@@ -321,42 +1009,47 @@
                     </ul>
                     <p class="copyright"><i class="far fa-copyright" aria-hidden="true"></i></i> Copyright 2019 Heart
                         Of
-                        Sea | Templated by <a href="#home" target="_blank"><img src="assets/img/myLogo.png" alt=""></a>
+                        Sea | Templated by <br>
+                        <a href="http://linkedin.com/in/syedshahinahmed" target="_blank"><img
+                                src="assets/img/myLogo.png" alt=""></a>
                     </p>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- End Of Footer Section -->
 
-    <!-- End Of Footer Section-->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+    <!-- Compiled jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
-    <!-- Animate on scroll JavaScript -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Animate On Scroll Library CSS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Initialize AOS -->
     <script>
         AOS.init();
     </script>
 
-    <!-- Custom JavaScript -->
-    <script type="text/javascript">
-        $(document).scroll(function () {
-            $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height())
-        });
-    </script>
-    <!-- Custom JavaScript -->
-    <script src="assets/script/main.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/script/materialScriptInit.js"></script>
+
+    <!-- Custom Script About Section-->
+    <script src="assets/script/about.js"></script>
+
+    <!-- Custom Script Galary Section -->
+    <script src="assets/script/galary.js"></script>
+
+    <!-- Custom Script ScollBar Section -->
+    <script src="assets/script/ScrollNab.js"></script>
+
+
 </body>
+
+
 
 </html>
