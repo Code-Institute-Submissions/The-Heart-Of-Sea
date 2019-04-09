@@ -65,6 +65,10 @@
   border-radius: 20px;
 }
 
+#about-memb .modal {
+  padding-top: 90px !important;
+}
+
 #about-memb .modal,
 #about-memb .modal-footer {
   background-color: #abc !important;

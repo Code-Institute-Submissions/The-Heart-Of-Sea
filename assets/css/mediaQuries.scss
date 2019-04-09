@@ -23,6 +23,7 @@
 		text-align: right;
 		margin: 20px;
 	}
+
 }
 
 /* Media Query About-Member Section */
@@ -34,6 +35,10 @@
 
 	#about-memb .card {
 		margin-bottom: 20px;
+	}
+
+	#about-memb .modal {
+		padding-top: 90px !important;
 	}
 }
 

@@ -30,6 +30,9 @@
   #about-memb .card {
     margin-bottom: 20px;
   }
+  #about-memb .modal {
+    padding-top: 90px !important;
+  }
 }
 
 /* Media Query Music Section*/
